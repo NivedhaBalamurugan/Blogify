@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": "23",
+      "title": "My 2nd Postssssss",
+      "datetime": "February 03, 2024 7:23:21 PM",
+      "body": "  setPosts(postlist);  setPosts(postlist);  setPosts(postlist);   setPosts(postlist);\n  setPosts(postlist);  setPosts(postlist);"
+    },
+    {
+      "id": "25",
+      "title": "My sixth post",
+      "datetime": "February 03, 2024 7:48:12 PM",
+      "body": "        <Route path=\"post\">   \n\n            <Route index element={\n              <NewPost\n                  handleSubmit={handleSubmit}\n                  postTitle={postTitle}\n                  setPostTitle={setPostTitle}\n                  postBody={postBody}\n                  setPostBody={setPostBody}\n                />} />\n\n            <Route path=\":id\" element={\n                <PostPage\n                  posts={posts}\n                  handleDelete={handleDelete}\n                  deletedposts = {deletedposts}\n                />} />\n\n        </Route>"
+    },
+    {
+      "id": "26",
+      "title": "My 2nd Postssssss  gcuv hbiy",
+      "datetime": "February 03, 2024 7:48:21 PM",
+      "body": "        <Route path=\"post\">   \n\n            <Route index element={\n              <NewPost\n                  handleSubmit={handleSubmit}\n                  postTitle={postTitle}\n                  setPostTitle={setPostTitle}\n                  postBody={postBody}\n                  setPostBody={setPostBody}\n                />} />\n\n            <Route path=\":id\" element={\n                <PostPage\n                  posts={posts}\n                  handleDelete={handleDelete}\n                  deletedposts = {deletedposts}\n                />} />\n\n        </Route>"
+    },
+    {
+      "id": "24",
+      "title": "My 5ht post",
+      "datetime": "February 03, 2024 7:45:22 PM",
+      "body": "        <Route path=\"post\">   \n\n            <Route index element={\n              <NewPost\n                  handleSubmit={handleSubmit}\n                  postTitle={postTitle}\n                  setPostTitle={setPostTitle}\n                  postBody={postBody}\n                  setPostBody={setPostBody}\n                />} />\n\n            <Route path=\":id\" element={\n                <PostPage\n                  posts={posts}\n                  handleDelete={handleDelete}\n                  deletedposts = {deletedposts}\n                />} />\n\n        </Route>        <Route path=\"post\">   \n\n            <Route index element={\n              <NewPost\n                  handleSubmit={handleSubmit}\n                  postTitle={postTitle}\n                  setPostTitle={setPostTitle}\n                  postBody={postBody}\n                  setPostBody={setPostBody}\n                />} />\n\n            <Route path=\":id\" element={\n                <PostPage\n                  posts={posts}\n                  handleDelete={handleDelete}\n                  deletedposts = {deletedposts}\n                />} />\n\n        </Route>"
+    }
+  ]
+}
